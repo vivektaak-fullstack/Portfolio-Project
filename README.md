@@ -1,6 +1,6 @@
 # FrontendPortfolio 💻
 
-**FullStackPortfolio** is a personal portfolio website built using HTML, CSS, Bootstrap, and JavaScript. It features a modern, responsive design with interactive sections to showcase skills, projects, services, and contact information.  
+**FrontendPortfolio** is a personal portfolio website built using HTML, CSS, Bootstrap, and JavaScript. It features a modern, responsive design with interactive sections to showcase skills, projects, services, and contact information.  
 
 ## Features
 - Hero section with background image and call-to-action buttons  
