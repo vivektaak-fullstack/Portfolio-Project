@@ -24,4 +24,4 @@
 <img width="1920" height="913" alt="Screenshot 2026-02-27 135556" src="https://github.com/user-attachments/assets/84c5d55b-058e-49af-a3c4-7eec6caadd19" />
 
 ## 🔗 Live Demo
- https://vivektaak-fullstack.github.io/Portfolio-Project/
+👉 [View Live Website](https://vivektaak-fullstack.github.io/Portfolio-Project/)
