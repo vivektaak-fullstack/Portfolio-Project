@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: blue;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+        transform: scale(1.1);
+        transition: 0.5s;
+}
+.navbar-brand{
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main{
+    background: url(./full.jpj.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    color: white; 
+    position: relative; 
+}
+
+.main h3{
+      font-size: 4.4rem;
+      font-weight: 500;
+      color: white;
+}
+
+.main h6{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    line-height: 1;
+    color: white;
+    border-bottom: 3px solid orangered;
+    
+}
+.main .bt1:hover{
+ background-color: rgba(255, 68, 0, 0.549);
+ transition: 0.5s;
+
+}
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color: rgb(255, 68, 0);
+    color: white;
+    outline: none;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+ background-color: rgba(255, 68, 0, 0.49);
+ transition: 0.5s;
+ color: white;
+}
+
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color: white;
+    color: orangered;
+    outline: none;
+    border: 1px solid orangered;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.about img{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.about img:hover{
+     transform: scale(1.1);
+        transition: 0.5s;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.progress{
+    background-color: whitesmoke;
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+
+    box-shadow: 29px 51px 105px -150px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 29px 51px 105px -150px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 29px 51px 105px -150px rgba(0,0,0,0.75) inset;
+}
+.pro-value1{
+    animation: load1 3s forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width:0;
+    padding-bottom: 5%;
+}
+
+.pro-value2{
+    animation: load2 3s forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width:0;
+    padding-bottom: 5%;
+}
+
+.pro-value3{
+    animation: load3 3s forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width:0;
+    padding-bottom: 5%;
+}
+.pro-value4{
+    animation: load4 3s forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width:0;
+    padding-bottom: 5%;
+}
+.pro-value5{
+    animation: load5 3s forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width:0;
+    padding-bottom: 5%;
+}
+.progress p{
+    color: white;
+    padding: 12px;
+}
+
+@keyframes load1 {
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 98%;
+    }
+}
+@keyframes load2 {
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes load3 {
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes load4 {
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes load5 {
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none; background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid black; background-color: transparent;
+    color: black;
+    border-radius: 4px;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+.card{
+    border: none;
+    outline: none;
+    box-shadow: -37px 1px 116px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: -37px 1px 116px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -37px 1px 116px -5px rgba(0,0,0,0.75);
+
+}
+.card p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    border-radius: 50px;
+    font-weight: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+     
+}
+.card:hover{
+ transform: scale(1.1);
+        transition: 0.5s;
+}
+/* portfolio */
+
+.control ul li{
+   list-style: none;
+   background-color: black;
+   padding: 5px 15px;
+   color: white;
+   display: inline-block;
+   cursor: pointer;
+   letter-spacing: 2px;
+}
+.item{
+    position: relative;
+}
+.item:hover{
+    box-shadow: 0px 9px 45px 3px rgba(0,0,0,0.72);
+-webkit-box-shadow: 0px 9px 45px 3px rgba(0,0,0,0.72);
+-moz-box-shadow: 0px 9px 45px 3px rgba(0,0,0,0.72);
+transition: 0.5s;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+}
+.item:hover span{
+   opacity: 1;
+   transition: 0.5s;
+}
+.item:before{
+    content:0 ;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(238, 235, 230, 0.644 );
+    opacity: 0;
+    position: absolute;
+}
+.item:hover:before{
+    opacity: 1;
+    transition: 0.3s;
+}
+.circle:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.contact .btn3{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px ;
+}
+.btn3:hover{
+    background: white;
+    color: black;
+    transition: 0.4s;
+    border: 1px solid black;
+}
+footer{
+    background-color: black;
+    color: lightgray;
+
+}
